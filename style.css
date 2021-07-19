@@ -20,6 +20,10 @@
     --text-font: 'Roboto', sans-serif;
   }
 
+  .bold {
+    font-style: bold;
+  }
+
   .container {
       display: grid;
       grid-template-columns: repeat(6, 1fr);
@@ -78,11 +82,19 @@
     /* padding-left: 10rem; */
   }
 
-  .about-me {
+  .about {
     background-color: #087e8b;
     grid-column: 1 / span 6;
     grid-row: 7 / span 2;
     height: 650px;
+  }
+
+  p.bold-text {
+    font-family: var(--heading-font);
+  }
+
+  p.regular-text {
+    font-family: var(--text-font);
   }
 
   .contact {
