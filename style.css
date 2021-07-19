@@ -1,12 +1,11 @@
 :root {
     --intro-heading-color: #bdbf09;
     --intro-heading-size: 4rem;
-
-    --intro-text-color: #095156;
     --intro-text-size: 3rem;
 
-    --section-title-dark: #087e8b;
-    --section-title-white: #ffffff;
+    --text-color-dark: #095156;
+    --text-color-white: #ffffff;
+
     --section-title-size: 2.5rem;
 
     --section-subtitle-dark: #087e8b;
@@ -27,11 +26,14 @@
       grid-template-rows: repeat(9, 1fr);
       background-color: black;
       max-width: 1200px;
-      margin: auto;
+      margin: 0 auto;
   }
 
   .intro {
     background-image: url('images/background-image.png');
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 2;
+    height: 800px;
   }
 
   h1 {
@@ -44,14 +46,8 @@
     /* height: 50%; */
   }
 
-  .intro {
-    grid-column: 1 / span 6;
-    grid-row: 1 / span 2;
-    height: 800px;
-  }
-
   .intro p {
-    color: var(--intro-text-color);
+    color: var(--text-color-dark);
     font-family: var(--text-font);
     font-size: var(--intro-text-size);
     margin: 1rem auto 0 auto;
@@ -61,13 +57,37 @@
   }
 
   .portfolio {
+    color: var(--text-color-dark);
+    background-color: #ffffff;
+    grid-column: 1 / span 6;
+    grid-row: 3 / span 4;
+    height: 1600px;
+  }
 
+  article img {
+    max-width: 500px;
+    max-height: 350px;
+  }
+
+  h2 {
+    font-family: var(--heading-font);
+    font-size: var(--section-title-size);
+    margin: 2rem auto;
+    padding: 0 auto;
+    /* width: 55%; */
+    /* padding-left: 10rem; */
   }
 
   .about-me {
-
+    background-color: #087e8b;
+    grid-column: 1 / span 6;
+    grid-row: 7 / span 2;
+    height: 650px;
   }
 
   .contact {
-
+    background-color: #095156;
+    grid-column: 1 / span 6;
+    grid-row: 8 / span1;
+    height: 650px;
   }
