@@ -12,8 +12,8 @@
 
   --section-text-size: 1.4rem;
 
-  --heading-font: 'Roboto Slab', serif;
-  --text-font: 'Roboto', sans-serif;
+  --heading-font: "Roboto Slab", serif;
+  --text-font: "Roboto", sans-serif;
 }
 
 a:link {
@@ -39,7 +39,7 @@ body {
 }
 
 .intro {
-  background-image: url('images/background-image.png');
+  background-image: url("images/background-image.png");
   grid-column: 1 / span 6;
   height: 800px;
   margin: 0 auto;
@@ -71,10 +71,12 @@ h1 {
   max-height: 1450px;
   margin: 0 auto;
   padding-right: 5rem;
-  padding-bottom: 3rem;;
+  padding-bottom: 3rem;
 }
 
-.portfolio h2, .portfolio h3, .portfolio p {
+.portfolio h2,
+.portfolio h3,
+.portfolio p {
   color: var(--color-dark);
 }
 
@@ -92,7 +94,8 @@ h3 {
   margin: 3rem auto;
 }
 
-p, ul {
+p,
+ul {
   font-family: var(--text-font);
   font-size: var(--section-text-size);
 }
@@ -111,11 +114,10 @@ article img {
 }
 
 article img:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 
 .description {
-
 }
 
 .desctiption p {
@@ -129,7 +131,8 @@ article img:hover {
   margin: 0 auto;
 }
 
-.about, .contact {
+.about,
+.contact {
   color: var(--color-white);
 }
 
@@ -138,20 +141,21 @@ article img:hover {
   grid-template-columns: repeat(2, 1fr);
 }
 
-p.bold-text, .about-list {
+p.bold-text,
+.about-list {
   font-family: var(--heading-font);
 }
 
 .about-list {
   list-style-type: none;
-  margin: 1rem 9rem 4rem 9rem; 
+  margin: 1rem 9rem 4rem 9rem;
   padding: 1rem;
   background-color: #cdcdcd;
   background-color: rgba(184, 184, 184, 0.2);
 }
 
 .about-list li {
-  padding: .7rem;
+  padding: 0.7rem;
 }
 
 .right-about {
@@ -176,4 +180,23 @@ p.regular-text {
 
 .contact-article {
   margin: 0 auto;
+}
+
+ul.icon-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+ul.icon-list li {
+  list-style-type: none;
+  width: 6em;
+}
+
+ul.icon-list img {
+  margin: 0;
+}
+
+.contact-article h3 {
+  text-align: center;
 }
