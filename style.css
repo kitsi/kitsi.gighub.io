@@ -1,23 +1,27 @@
 :root {
-    --color-intro-heading: #bdbf09;
-    --color-dark: #095156;
-    --color-medium: #087e8b;
-    --color-white: #ffffff;
+  --color-intro-heading: #bdbf09;
+  --color-dark: #095156;
+  --color-medium: #087e8b;
+  --color-white: #ffffff;
 
-    --intro-heading-size: 4rem;
-    --intro-text-size: 3rem;
+  --intro-heading-size: 4rem;
+  --intro-text-size: 3rem;
 
-    --section-title-size: 2.5rem;
-    --section-subtitle-size: 2rem;
+  --section-title-size: 2.5rem;
+  --section-subtitle-size: 2rem;
 
-    --section-text-size: 1.4rem;
+  --section-text-size: 1.4rem;
 
-    --heading-font: 'Roboto Slab', serif;
-    --text-font: 'Roboto', sans-serif;
+  --heading-font: 'Roboto Slab', serif;
+  --text-font: 'Roboto', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 body {
-  background-color: grey;
+  /* background-color: grey; */
   margin: 0;
 }
 
@@ -26,13 +30,14 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    /* grid-template-rows: repeat(9, 1fr); */
-    background-color: black;
-    max-width: 1200px;
-    max-height: 3300px;
-    margin: 0 auto;
+  box-shadow: 0px 0px 20px 5px #cdcdcd;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-rows: repeat(9, 1fr); */
+  background-color: black;
+  max-width: 1200px;
+  max-height: 3300px;
+  margin: 0 auto;
 }
 
 .intro {
@@ -70,6 +75,8 @@ h1 {
   /* grid-row: 3 / span 4; */
   max-height: 1450px;
   margin: 0 auto;
+  padding-right: 5rem;
+  padding-bottom: 3rem;;
 }
 
 .portfolio h2, .portfolio h3, .portfolio p {
@@ -82,18 +89,20 @@ h2 {
   font-size: var(--section-title-size);
   margin: 2rem auto;
   /* padding: 0 auto; */
-  width: 20%;
-  /* padding-left: 10rem; */
+  width: 30%;
+  padding-left: 10rem;
 }
 
 h3 {
   /* grid-column: 1 / span 6; */
   font-family: var(--heading-font);
   font-size: var(--section-text-size);
-  /* margin: 2rem auto; */
+  margin: 3rem auto;
   /* padding: 0 auto; */
-  width: 20%;
+  /* width: 20%; */
   /* padding-left: 10rem; */
+  /* padding: 5rem; */
+
 }
 
 p, ul {
@@ -115,9 +124,16 @@ article img {
   max-width: 500px;
   max-height: 350px;
   border: 2px solid #555;
+  margin: 2rem 5rem;
 }
 
-article.description {
+.description {
+  /* padding: 1rem; */
+  /* margin: 5rem; */
+}
+
+.desctiption p {
+  padding-right: 2rem;
 }
 
 .about {
