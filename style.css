@@ -33,7 +33,6 @@ body {
   box-shadow: 0px 0px 20px 5px #cdcdcd;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  /* grid-template-rows: repeat(9, 1fr); */
   background-color: black;
   max-width: 1200px;
   max-height: 3300px;
@@ -43,7 +42,6 @@ body {
 .intro {
   background-image: url('images/background-image.png');
   grid-column: 1 / span 6;
-  /* grid-row: auto / span 2; */
   height: 800px;
   margin: 0 auto;
 }
@@ -55,7 +53,6 @@ h1 {
   margin: 20rem auto 0 auto;
   width: 55%;
   padding-left: 10rem;
-  /* height: 50%; */
 }
 
 .intro p {
@@ -72,7 +69,6 @@ h1 {
   color: var(--text-color-dark);
   background-color: #ffffff;
   grid-column: 1 / span 6;
-  /* grid-row: 3 / span 4; */
   max-height: 1450px;
   margin: 0 auto;
   padding-right: 5rem;
@@ -84,35 +80,22 @@ h1 {
 }
 
 h2 {
-  /* grid-column: 1 / span 6; */
   font-family: var(--heading-font);
   font-size: var(--section-title-size);
   margin: 2rem auto;
-  /* padding: 0 auto; */
   width: 30%;
   padding-left: 10rem;
 }
 
 h3 {
-  /* grid-column: 1 / span 6; */
   font-family: var(--heading-font);
   font-size: var(--section-text-size);
   margin: 3rem auto;
-  /* padding: 0 auto; */
-  /* width: 20%; */
-  /* padding-left: 10rem; */
-  /* padding: 5rem; */
-
 }
 
 p, ul {
-  /* grid-column: 1 / span 6; */
   font-family: var(--text-font);
   font-size: var(--section-text-size);
-  /* margin: 2rem auto; */
-  /* padding: 0 auto; */
-  /* width: 20%; */
-  /* padding-left: 10rem; */
 }
 
 .projects {
@@ -133,8 +116,7 @@ article img:hover {
 }
 
 .description {
-  /* padding: 1rem; */
-  /* margin: 5rem; */
+
 }
 
 .desctiption p {
@@ -144,7 +126,6 @@ article img:hover {
 .about {
   background-color: #087e8b;
   grid-column: 1 / span 6;
-  /* grid-row: auto / span 2; */
   max-height: 650px;
   margin: 0 auto;
 }
@@ -164,13 +145,9 @@ p.bold-text, .about-list {
 
 .about-list {
   list-style-type: none;
-  /* padding-top:1rem; */
   margin: 1rem 9rem 4rem 9rem; 
   padding: 1rem;
-  /* box-sizing: border-box; */
   background-color: #cdcdcd;
-  /* box-shadow: 5px 10px #888888; */
-  /* background: rgba(0,0,0, .2); */
   background-color: rgba(184, 184, 184, 0.2);
 }
 
@@ -189,14 +166,12 @@ p.regular-text {
 .contact {
   background-color: #095156;
   grid-column: 1 / span 6;
-  /* grid-row: auto / span1; */
   max-height: 400px;
   margin: 0 auto;
 }
 
 .contact-sections {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr; */
   grid-template-columns: repeat(3, 1fr);
 }
 
