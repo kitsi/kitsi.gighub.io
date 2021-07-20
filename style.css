@@ -32,7 +32,6 @@ body {
   box-shadow: 0px 0px 20px 5px #cdcdcd;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  background-color: black;
   max-width: 1200px;
   max-height: 3300px;
   margin: 0 auto;
