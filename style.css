@@ -186,6 +186,7 @@ ul.icon-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
+  padding: 0;
 }
 
 ul.icon-list li {
