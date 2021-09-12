@@ -51,7 +51,7 @@ h1 {
   font-size: var(--intro-heading-size);
   margin: 20rem auto 0 auto;
   width: 55%;
-  padding-left: 10rem;
+  padding-left: 5rem;
 }
 
 .intro p {
@@ -61,7 +61,7 @@ h1 {
   margin: 1rem auto 0 auto;
   width: 60%;
   padding-top: 1rem;
-  padding-left: 9rem;
+  padding-left: 5rem;
 }
 
 .portfolio {
