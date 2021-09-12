@@ -39,6 +39,7 @@ body {
 
 .intro {
   background-image: url("images/background-image.png");
+  background-size: 100%;
   grid-column: 1 / span 6;
   height: 800px;
   margin: 0 auto;
